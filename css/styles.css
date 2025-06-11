@@ -1,0 +1,89 @@
+/* BODY */
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* NAV */
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list .link-nav {
+    color: #2E2F42;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+
+}
+
+.nav-list .link-nav:hover,
+.nav-list .link-nav:focus {
+    color: #404BBF;
+}
+
+.nav-list .link-nav:active {
+    color: #404BBF;
+}
+
+/* CONTACT */
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-list .contact {
+    color: #434455;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+
+}
+
+.contact-list .contact:hover,
+.contact-list .contact:focus {
+    color: #404BBF;
+}
+
+.contact-list .contact:active {
+    color: #404BBF;
+}
+
+/* BUTTON */
+.first-button .button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    width: 169px;
+    height: 56px;
+}
+
+.first-button .button:hover,
+.first-button .button:focus {
+    background-color: #404BBF;
+}
+
+/*logo*/
+.logo {
+    text-decoration: none;
+}
+
+.logo .web {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+}
+
+.logo .studio {
+    color: #2E2F42;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+}
+
