@@ -1,89 +1,85 @@
-/* BODY */
+/* Общие стили  */
+
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
 }
 
-/* NAV */
-.nav-list {
-    list-style-type: none;
+/*  Заголовки и тексты из 4-й секции (Our Portfolio)*/
+
+/* Заголовок секции */
+.section-title,
+.section-title-portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 24px;
+    font-family: 'Raleway', sans-serif;
 }
 
-.nav-list .link-nav {
-    color: #2E2F42;
-    text-decoration: none;
+/* Заголовки h3 в портфолио */
+.portfolio-item-title {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 8px 0 4px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
+}
+
+/* Параграфы в портфолио */
+.portfolio-item-text {
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-
-}
-
-.nav-list .link-nav:hover,
-.nav-list .link-nav:focus {
-    color: #404BBF;
-}
-
-.nav-list .link-nav:active {
-    color: #404BBF;
-}
-
-/* CONTACT */
-.contact-list {
-    list-style-type: none;
-}
-
-.contact-list .contact {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-.contact-list .contact:hover,
-.contact-list .contact:focus {
-    color: #404BBF;
+/* Картинки портфолио */
+.portfolio-image {
+    width: 360px;
+    display: block;
+    object-fit: cover;
 }
 
-.contact-list .contact:active {
-    color: #404BBF;
+/* Стили для списка портфолио */
+.portfolio-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
 }
 
-/* BUTTON */
-.first-button .button {
-    color: #FFFFFF;
-    background-color: #4D5AE5;
-    width: 169px;
-    height: 56px;
+.portfolio-item {
+    max-width: 360px;
+    text-align: center;
 }
 
-.first-button .button:hover,
-.first-button .button:focus {
-    background-color: #404BBF;
+/* Футер */
+
+.footer {
+    background-color: #2e2f42;
+    padding: 32px 20px;
+    text-align: center;
 }
 
-/*logo*/
-.logo {
-    text-decoration: none;
-}
-
-.logo .web {
-    color: #4D5AE5;
-    font-family: Raleway, sans-serif;
+.footer .main-logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
 }
-
-.logo .studio {
-    color: #2E2F42;
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-}
-
