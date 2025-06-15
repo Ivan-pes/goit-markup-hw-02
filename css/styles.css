@@ -9,6 +9,7 @@ body {
 /*  logo */
 
 .main-logo {
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -19,6 +20,9 @@ body {
 }
 .studio-logo {
     color: #2e2f42;
+}
+.studio-logi {
+    color: #f4f4fd;
 }
 
 /* Nav */
@@ -102,7 +106,7 @@ body {
     background-color: #F4F4FD;
 }
 .section-title {
-    font-size : 32px;
+    font-size : 36px;
     line-height: 1.11;
     text-align:center;
     letter-spacing: 0.02em;
@@ -110,9 +114,12 @@ body {
     color: #2e2f42;
 }
 .our-team .team-list {
-    background-color: #FFFFFF;
     list-style-type: none;
 }
+.team-list .team-item {
+    background-color: #FFFFFF;
+}
+
 .team-list .feature-title {
     font-weight: 500;
     font-size: 20px;
@@ -129,15 +136,12 @@ body {
 
 /* 4-section */
 .section-title-portfolio {
-    font-size: 32px;
+    font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-.our-portfolio .portfolio-image {
-    width: 360px;
 }
 .portfolio-item .portfolio-item-title {
     font-weight: 500;
